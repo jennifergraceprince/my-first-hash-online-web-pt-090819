@@ -20,7 +20,7 @@ def retrieval
                   "oil paintings" => 3
                  }
 
-  shipping_manifest = ["oil paintings"]
+  shipping_manifest = {"oil paintings"}
 end
 
 def adding
@@ -30,8 +30,8 @@ def adding
                   "oil paintings" => 3
                   }
   
-  shipping_manifest = ["muskets" => 2, 
+  shipping_manifest = {"muskets" => 2, 
                        "gun powder" => 4
-                       ]
+                      }
   return shipping_manifest
 end
